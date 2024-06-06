@@ -1,0 +1,322 @@
+<mxfile host="app.diagrams.net" modified="2023-11-20T07:55:34.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="I4vNi9VY2twNQdlD6M83" version="22.1.3" type="device">
+  <diagram name="Page-1" id="T2f1POZsp7TAdwo1yCoA">
+    <mxGraphModel dx="1217" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="200" width="1510" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-1" value="Гость&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="910" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-4" value="Просмотр каталога страховых планов" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-6" value="Клиент&amp;nbsp;&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="920" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="MaIccuSpKyJiTrDTbN5r-10" target="MaIccuSpKyJiTrDTbN5r-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-13" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MaIccuSpKyJiTrDTbN5r-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.35" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-10" value="Расчёт стоимости для конкретного страхового плана с помощью калькулятора расчёта стоимости страхового полиса&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="240" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-14" value="Регистрация в системе" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-1" target="MaIccuSpKyJiTrDTbN5r-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="640" as="sourcePoint" />
+            <mxPoint x="330" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-21" value="Приложения страховой компании" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-23" value="Авторизация в системе&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="325" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-32" value="&lt;font style=&quot;&quot;&gt;Подача заявления на оформление нового страхового полиса&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="790" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-33" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-6" target="MaIccuSpKyJiTrDTbN5r-32" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="630" as="sourcePoint" />
+            <mxPoint x="480" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-35" value="&lt;font style=&quot;&quot;&gt;Просмотр списка оформленных страховых полисов&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="750" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-36" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="MaIccuSpKyJiTrDTbN5r-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="940" as="sourcePoint" />
+            <mxPoint x="513" y="588" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-40" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;entryX=0.727;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-37" target="GulrhN7akd0WejO5MwGh-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-37" value="&lt;font style=&quot;&quot;&gt;Подача заявлений о страховых выплатах&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="780" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-39" value="&lt;font style=&quot;&quot;&gt;Просмотр списка&amp;nbsp; заявления о страховых выплатах&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="710" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-6" target="MaIccuSpKyJiTrDTbN5r-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="700" as="sourcePoint" />
+            <mxPoint x="470" y="650" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-43" value="Страховой агент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="780" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-44" value="Рассмотр заявлений на оформление нового страхового полиса&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="290" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-43" target="MaIccuSpKyJiTrDTbN5r-44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="180" as="sourcePoint" />
+            <mxPoint x="660" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-46" value="Рассмотрение заявлений о страховых выплатах" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="230" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-47" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-43" target="MaIccuSpKyJiTrDTbN5r-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="150" as="sourcePoint" />
+            <mxPoint x="810" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-52" value="Просмотр конкретного заявления&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="330" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-54" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-46" target="MaIccuSpKyJiTrDTbN5r-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="342" as="sourcePoint" />
+            <mxPoint x="670" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-55" value="Подтверждение страхового случая" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="470" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.186;entryY=0.89;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GulrhN7akd0WejO5MwGh-11" target="GulrhN7akd0WejO5MwGh-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="242" as="sourcePoint" />
+            <mxPoint x="751" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-58" value="Отклонение заявления" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="350" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.096;exitY=0.225;exitDx=0;exitDy=0;dashed=1;exitPerimeter=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-58" target="GulrhN7akd0WejO5MwGh-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="400" as="sourcePoint" />
+            <mxPoint x="830" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-60" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MaIccuSpKyJiTrDTbN5r-59" vertex="1" connectable="0">
+          <mxGeometry x="-0.126" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MaIccuSpKyJiTrDTbN5r-61" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-43" target="MaIccuSpKyJiTrDTbN5r-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="200" as="sourcePoint" />
+            <mxPoint x="470" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-6" target="MaIccuSpKyJiTrDTbN5r-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="870" as="sourcePoint" />
+            <mxPoint x="470" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-4" value="Сортировка и фильтрование списка заявлений" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="445" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.692;exitY=0.044;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.656;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="GulrhN7akd0WejO5MwGh-4" target="MaIccuSpKyJiTrDTbN5r-44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-6" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GulrhN7akd0WejO5MwGh-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.1763" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-7" value="Выбор одного из заявлений рассмотрение" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="295" y="405" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-8" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.406;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="GulrhN7akd0WejO5MwGh-7" target="MaIccuSpKyJiTrDTbN5r-44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="sourcePoint" />
+            <mxPoint x="490" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.654;entryY=0.969;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;dashed=1;" parent="1" source="GulrhN7akd0WejO5MwGh-10" target="GulrhN7akd0WejO5MwGh-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="540" as="sourcePoint" />
+            <mxPoint x="400" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-10" value="Оформление нового страхового полиса&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.938;exitY=0.275;exitDx=0;exitDy=0;dashed=1;exitPerimeter=0;" parent="1" source="MaIccuSpKyJiTrDTbN5r-55" target="GulrhN7akd0WejO5MwGh-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="590" as="sourcePoint" />
+            <mxPoint x="821" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-13" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GulrhN7akd0WejO5MwGh-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.126" y="-3" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-11" value="Написание ответа со стороны страховой компании на заявление" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="405" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.912;entryY=0.756;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GulrhN7akd0WejO5MwGh-11" target="MaIccuSpKyJiTrDTbN5r-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="645" y="600" as="sourcePoint" />
+            <mxPoint x="742" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-15" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GulrhN7akd0WejO5MwGh-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.126" y="-3" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-17" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=classic;html=1;dashed=1;curved=1;" parent="1" source="GulrhN7akd0WejO5MwGh-4" target="MaIccuSpKyJiTrDTbN5r-35" edge="1">
+          <mxGeometry x="-0.0285" y="7" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="599" as="sourcePoint" />
+            <mxPoint x="601" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="600" />
+              <mxPoint x="650" y="650" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-18" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=classic;html=1;dashed=1;entryX=0.563;entryY=0.025;entryDx=0;entryDy=0;curved=1;entryPerimeter=0;" parent="1" source="GulrhN7akd0WejO5MwGh-4" target="MaIccuSpKyJiTrDTbN5r-39" edge="1">
+          <mxGeometry x="0.0821" y="-14" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="546" y="574" as="sourcePoint" />
+            <mxPoint x="687" y="733" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="690" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-20" value="Выбор страхового полиса из списка оформленных страхвых полисов&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="705" y="610" width="180" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-21" value="Загрузка электронного документа страхового полиса полиса&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="500" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="GulrhN7akd0WejO5MwGh-20" target="MaIccuSpKyJiTrDTbN5r-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="655" as="sourcePoint" />
+            <mxPoint x="426" y="776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-24" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GulrhN7akd0WejO5MwGh-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.126" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="GulrhN7akd0WejO5MwGh-21" target="GulrhN7akd0WejO5MwGh-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="818" y="702" as="sourcePoint" />
+            <mxPoint x="750" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-26" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GulrhN7akd0WejO5MwGh-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.126" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-27" value="Заполнение электронной формы по конкретному страховому плану&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="650" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-29" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.294;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="MaIccuSpKyJiTrDTbN5r-32" target="GulrhN7akd0WejO5MwGh-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="730" as="sourcePoint" />
+            <mxPoint x="1080" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-30" value="Отправка формы&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-31" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" source="GulrhN7akd0WejO5MwGh-27" target="GulrhN7akd0WejO5MwGh-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="750" as="sourcePoint" />
+            <mxPoint x="1067" y="696" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-35" value="Заполнение электронной формы по страховому полису&amp;nbsp;&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="990" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-36" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.294;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="MaIccuSpKyJiTrDTbN5r-37" target="GulrhN7akd0WejO5MwGh-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1295" y="730" as="sourcePoint" />
+            <mxPoint x="1345" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-42" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=classic;html=1;dashed=1;exitX=0.546;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" parent="1" source="GulrhN7akd0WejO5MwGh-35" target="GulrhN7akd0WejO5MwGh-30" edge="1">
+          <mxGeometry x="0.125" y="-23" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="998" y="793" as="sourcePoint" />
+            <mxPoint x="1065.414708409407" y="559.836783297782" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="530" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-46" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;dashed=1;curved=1;" parent="1" source="GulrhN7akd0WejO5MwGh-4" target="MaIccuSpKyJiTrDTbN5r-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="538" y="504" as="sourcePoint" />
+            <mxPoint x="535" y="387" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulrhN7akd0WejO5MwGh-47" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GulrhN7akd0WejO5MwGh-46" vertex="1" connectable="0">
+          <mxGeometry x="-0.1763" y="1" relative="1" as="geometry">
+            <mxPoint x="80" y="-53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LMHwk2T0VZmw53yq2Jfv-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MaIccuSpKyJiTrDTbN5r-1" target="MaIccuSpKyJiTrDTbN5r-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="730" as="sourcePoint" />
+            <mxPoint x="160" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LMHwk2T0VZmw53yq2Jfv-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MaIccuSpKyJiTrDTbN5r-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="730" as="sourcePoint" />
+            <mxPoint x="170" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LMHwk2T0VZmw53yq2Jfv-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="600" as="sourcePoint" />
+            <mxPoint x="170" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
